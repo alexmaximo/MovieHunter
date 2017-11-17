@@ -1,6 +1,6 @@
 {
-  "name": "hands-on",
-  "version": "0.0.0",
+  "name": "movie-hunter",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -21,11 +21,9 @@
     "@angular/platform-browser": "^5.0.0",
     "@angular/platform-browser-dynamic": "^5.0.0",
     "@angular/router": "^5.0.0",
-    "@ngui/menu": "^0.6.0",
-    "angular-md5": "^0.1.10",
+    "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
     "rxjs": "^5.5.2",
-    "ts-md5": "^1.2.2",
     "zone.js": "^0.8.14"
   },
   "devDependencies": {

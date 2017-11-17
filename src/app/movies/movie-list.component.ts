@@ -7,10 +7,10 @@ import { MovieParameterService } from './movie-parameter.service';
 
 @Component({
     templateUrl: './movie-list.component.html',
-    styleUrls: ['./movie-list-component.css']
+    styleUrls: ['./movie-list.component.css']
 })
 export class MovieListComponent implements OnInit {
-    pageTitle: string;
+    pageTitle: string = 'Movie List';
     filteredMovies: IMovie[];
     movies: IMovie[];
     errorMessage: string;

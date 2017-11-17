@@ -34,6 +34,7 @@ export class MovieEditReactiveComponent implements OnInit {
         //     starRating: new FormControl('', NumberValidators.range(1, 5)),
         //     description: new FormControl('')
         // });
+
         // With FormBuilder
         this.editForm = this.fb.group({
             'title': ['', [Validators.required,
@@ -52,6 +53,7 @@ export class MovieEditReactiveComponent implements OnInit {
         // this.editForm.valueChanges
         //         .debounceTime(500)
         //         .subscribe(data => this.onValueChanged(data));
+
         // Watch one control on the form.
         this.editForm.get('title').valueChanges
                      .subscribe(value => console.log(`Title Changed to: ${value}`));

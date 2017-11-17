@@ -8,9 +8,11 @@ import { WelcomeComponent } from './home/welcome.component';
 import { PageNotFoundComponent } from './home/page-not-found.component';
 
 // import { MovieModule } from './movies/movie.module';
+
 // export function _movieModuleLoader() {
 //     return MovieModule;
 //  }
+
 @NgModule({
     imports: [
         RouterModule.forRoot([
