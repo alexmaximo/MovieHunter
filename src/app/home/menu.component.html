@@ -5,14 +5,7 @@
             <li routerLinkActive="active">
                 <a routerLink='/welcome'>Home</a>
             </li>
-            <li routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
-                <a routerLink="*/" (click)="logOut()" ></a>Movie</a>
-                <ul ng-style="{classActive}}">
-                    <li><a routerLink='/movies'>Movie List</a></li>
-                    <li><a routerLink='/movies/search'>Advanced Search</a></li>
-                    <li><a [routerLink]="['/movies', 0, 'edit']">Add Movie</a></li>
-                </ul>
-            </li>
+         
             <li routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
                 <a routerLink='/movies'>Movie List</a>
             </li>
@@ -21,12 +14,6 @@
             </li>
             <li routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
                 <a [routerLink]="['/movies', 0, 'edit']">Add Movie</a>
-            </li>
-            <li routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
-                <a [routerLink]="['/movies', 0, 'edit']">Gravatar</a>
-            </li>
-            <li routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
-                <a [routerLink]="['/movies', 0, 'edit']">Marvel</a>
             </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">

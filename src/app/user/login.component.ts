@@ -29,10 +29,10 @@ export class LoginComponent {
             if (this.authService.redirectUrl) {
                 this.router.navigateByUrl(this.authService.redirectUrl);
             } else {
-                this.router.navigate(['/movies']);
+                this.router.navigate(['/welcome']);
             }
         } else {
-            this.errorMessage = 'Please enter a user name and password.';
+            this.errorMessage = 'Por favor, informe seu usuário e senha.';
         }
     }
 }
